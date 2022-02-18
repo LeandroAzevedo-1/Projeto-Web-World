@@ -1,0 +1,97 @@
+
+.menu-principal{
+    background-color: #252323;
+}
+.header-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 980px;
+    margin: auto;
+    height: 60px;
+}
+.header-1 .redes-sociais ul{
+    display: flex;
+}
+
+.header-1 .redes-sociais ul li{
+    margin: 0 15px;
+}
+.navbar{
+    border-bottom: 3px solid #efefef;
+    
+}
+.header-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 980px;
+    margin: auto;
+    height: 84px;
+    flex-wrap: wrap;
+}
+.header-2 ul{
+    display: flex;
+}
+.header-2 ul li{
+    margin: 5px;
+}
+.header-2  ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #8b8b8b;
+}
+.header-2  ul li a:hover{
+    color: #00bac6;
+    border-bottom: 2px solid ;
+    padding-bottom: 32px;
+    
+    
+}
+.busca input{
+    background: url('../img/Busca.png')no-repeat center right;
+    background-position: 95%;
+    padding: 8px 20px;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px; 
+}
+/* Estilizando Setas */
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background: url('../img/seta-left.png');
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 35%;
+    left: 18%;
+}
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background: url('../img/seta-right.png');
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 35%;
+    right: 18%;
+}
+.slick-dots li {
+    display: inline-block;
+    font-size: 0;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  
+}
+.slick-dots li.slick-active{
+    background-color: #00bac6;
+    
+}
