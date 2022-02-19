@@ -6,9 +6,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 980px;
+    flex-wrap: wrap;
+    padding: 0 17%;
     margin: auto;
-    height: 60px;
+    height: 4.5rem;
 }
 .header-1 .redes-sociais ul{
     display: flex;
@@ -25,9 +26,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 980px;
+    padding: 0 17%;
     margin: auto;
-    height: 84px;
+    height: 6rem;
     flex-wrap: wrap;
 }
 .header-2 ul{
@@ -117,3 +118,136 @@ li.slick-active button{
     margin: auto;
     color: #8b8b8b;
 }
+
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 17%;
+    margin: auto;
+    margin-top: 45px;
+}
+.cards .card{
+    width: 340px;
+    height: 312px;
+}
+.cards .item-2{
+    margin-top: 84px;
+}
+.cards .texto-card{
+    margin: 15px;
+}
+
+/* cards 2 */
+.cards-bacground{
+    background-color: hsl(0, 0%, 97%);
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:50px;
+    margin-top: 30px;  
+
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50,50,50,0.22);
+    margin: 10px;
+    width: 310px;
+    height: 310px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.texto-card2 {
+    padding: 12px;
+}
+.texto-card2 h4 {
+    padding: 12px 0;
+}
+.patrocinadores{
+    width: 980px;
+    margin: auto;
+    padding: 3rem;
+    max-width: 100%;
+}
+.patrocinadores img{
+    padding: 1.5rem;
+}
+
+.sobre{
+    background-color: #514950;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.contatos{
+    width: 245px;
+    height: 325px;
+    border-left: 1px solid #fff;
+    padding-left: 15px;
+}
+.contatos .date{
+    display: flex;
+    padding: 2rem 0;
+}
+.contatos .date img{
+    margin-right: 10px;
+}
+.contatos hr{
+    width: 200px;
+}
+.contatos h5{
+    color: #f3f3f3;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.contatos p{
+    color: #d4d4d3;
+}
+.contatos strong{
+    color: #d4d4d3;
+    font-size: 18px;
+}
+.contatos.item-3 p{
+    margin-top: 15px;
+}
+
+.contatos.item-4 p{
+    padding-bottom: 10px;
+}
+.contatos.item-4 nav ul li{
+    margin: 12px 0;
+}
+.contatos.item-4 nav ul li img{
+    margin-right: 8px;
+    
+}
+.rodape{
+    background-color: #252323;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 17%;
+}
+.rodape p{
+    color: #d4d4d3; ;
+}
+.rodape ul{
+    display: flex;
+    
+}
+.rodape ul li{
+    margin: 0 15px;
+}
+ 
