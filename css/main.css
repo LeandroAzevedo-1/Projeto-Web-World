@@ -82,16 +82,38 @@ button.slick-next{
     top: 35%;
     right: 18%;
 }
+.slick-dots{
+    text-align: center;
+}
 .slick-dots li {
     display: inline-block;
-    font-size: 0;
-    border: 3px solid #ffff;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-  
+    margin: 5px;
 }
-.slick-dots li.slick-active{
+.slick-dots li button{
+    font-size: 0;
+    border: 3px solid #fff;
+    position: relative;
+    bottom: 35px;
+    border-radius: 50%;
+    padding: 4px;
+    background: transparent;
+    cursor: pointer;
+}
+
+li.slick-active button{
     background-color: #00bac6;
-    
+}
+.texto-destaque{
+    text-align: center;
+}
+.texto-destaque span{
+    display: block;
+    font-size: 20px;
+    color: #8b8b8b;
+    margin: 30px;
+}
+.texto-destaque p{
+    max-width: 980px;
+    margin: auto;
+    color: #8b8b8b;
 }
