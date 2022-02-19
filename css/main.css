@@ -122,7 +122,8 @@ li.slick-active button{
 .cards{
     display: flex;
     flex-wrap: nowrap;
-    padding: 0 17%;
+    width: 980px;
+    max-width: 100%;
     margin: auto;
     margin-top: 45px;
 }
@@ -228,8 +229,10 @@ li.slick-active button{
     margin: 12px 0;
 }
 .contatos.item-4 nav ul li img{
-    margin-right: 8px;
-    
+    margin-right: 8px;   
+}
+.contatos.item-4 nav ul li span{
+    color: #d4d4d3; ;   
 }
 .rodape{
     background-color: #252323;
