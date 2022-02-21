@@ -2,6 +2,7 @@
 .menu-principal{
     background-color: #252323;
 }
+/* 1 menu */
 .header-1{
     display: flex;
     justify-content: space-between;
@@ -22,6 +23,7 @@
     border-bottom: 3px solid #efefef;
     
 }
+/* 2 menu */
 .header-2{
     display: flex;
     justify-content: space-between;
@@ -187,7 +189,6 @@ li.slick-active button{
     display: flex;
     justify-content: center;
     padding: 40px;
-    flex-wrap: wrap;
 }
 
 .contatos{
