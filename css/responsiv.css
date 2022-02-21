@@ -20,3 +20,48 @@
     padding: 0 5%;
   }
 }
+@media (max-width: 920px){
+  .patrocinadores{
+    
+  
+  }
+}
+
+
+@media (max-width: 720px){
+    #menu-hamburguer{
+      display: inline-block;
+      
+  }
+
+  .header-2 nav{
+    position: absolute;
+    height: 280px;
+    width:250px;
+    background-color: rgb(244, 241, 247);
+    z-index: 99;
+    top: 72px;
+    left: -110%;
+    transition: 0.5s ease-in-out;
+  }
+  .header-2 nav.menuAtivo{
+      left: 10%;
+
+  }
+  .header-2 nav ul{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+  }
+  .header-2 nav ul li{
+    margin: 10px 0;
+  }
+  .header-2  ul li a:hover{
+    border-bottom: none;
+  }
+
+}

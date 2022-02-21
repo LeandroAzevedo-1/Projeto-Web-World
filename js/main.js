@@ -6,3 +6,10 @@ $('.slider-principal').slick({
     autoplay: true,
     autoplaySpeed: 2000
 });
+
+const menu = document.querySelector("#menu-hamburguer")
+const menuNav = document.querySelector("nav")
+
+menu.addEventListener("click",()=>{
+   menuNav.classList.toggle("menuAtivo")  
+})
